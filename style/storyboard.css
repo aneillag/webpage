@@ -1,0 +1,33 @@
+<!DOCUTYPE CSS-->
+*{	--normal-font:system-ui;
+	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+  	font-family : 'Paytone One', sans-serif;
+  	text-decoration:none;
+}
+
+
+.menu{position: relative; height:20%; width: 100%;}
+
+.menu nav{ display: flex; width: 101%;  height: 100px; background-color: #fff; margin: -8px;  padding: 10px 0px 0px ; align-items: center; justify-content: space-between;}
+
+.menu nav ul li{display: inline-block; margin:5px 10px;}
+
+.menu nav ul li a{ color: black; font-weight:bold; text-decoration:none;}
+.menu nav ul li a:hover{color: pink}
+
+
+
+body{
+	background: #E1FDFF;
+	font-family: var(--normal-font)
+}
+
+h2{color: pink; text-align: center}
+h3{text-align: center}
+td{text-align: center}
+
+td{padding: 15px}
+
+
